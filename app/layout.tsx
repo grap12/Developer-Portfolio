@@ -9,31 +9,27 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ibiimemon.com/"),
-  title: "Ibrahim Memon - SWE | IXD | UX - Developer Portfolio",
+  metadataBase: new URL("https://google.com/"),
+  title: "OMAR ECH CHENYGRY - SWE | IXD | UX - Developer Portfolio",
   description:
     "Developer Portfolio of Frontend & Mobile App Developer from Pakistan with 3+ years of expertise. Senior Software Engineer. Specializing mobile apps, UX, and JavaScript technologies.",
   keywords: [
     "Developer",
     "Portfolio",
     "Developer Portflio",
-    "Ibrahim Memon",
-    "Ibrahim",
-    "IbiiMemon",
-    "IbrahimMemon",
-    "Ibrahim_Memon",
+    "OMAR ECH CHENYGRY",
     "Next.js",
     "ReactNative",
     "Android",
   ],
   openGraph: {
-    title: "Ibrahim Memon - SWE | IXD | UX",
+    title: "OMAR ECH CHENYGRY - SWE | IXD | UX",
     description:
       "Frontend & Mobile App Developer from Pakistan with 3+ years of expertise. Senior Software Engineer. Specializing mobile apps, UX, and JavaScript technologies.",
     images: "/OpenGraph.jpg",
   },
   alternates: {
-    canonical: "https://ibiimemon.com/",
+    canonical: "https://google.com/",
   },
 };
 export default function RootLayout({
@@ -50,12 +46,10 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "http://schema.org",
               "@type": "Person",
-              name: "Ibrahim Memon",
+              name: "OMAR ECH CHENYGRY",
               jobTitle: "Software Engineer",
-              url: "https://ibiimemon.com",
               sameAs: [
-                "https://www.linkedin.com/in/ibrahimmemonn/",
-                "https://github.com/ibrahimmemonn",
+                "https://www.linkedin.com/in/omar-ech-chenygry-1b9a15380/",
               ],
             }),
           }}
