@@ -25,7 +25,7 @@ const Experience: React.FC<{}> = () => {
             </p>
           </div>
           <p className="text-gray-300 md:pt-0 pt-3">
-            Jan 2021 - Present
+            Jan 2023 - Present
           </p>
         </div>
         <ul className="text-gray-300 pt-3 pl-5 list-disc">
